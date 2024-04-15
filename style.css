@@ -1,0 +1,193 @@
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  padding: 1px;
+  font-family:"Ubuntu-light", sans-serif;
+  font-weight: 1;
+  font-style: thin;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+   float: inline-start;
+   position: relative;
+}
+
+.helpdesk {
+  float: inline-end;
+  font-family: "Ubuntu-light",sans-serif;
+  font-weight: 1;
+  font-size: 17px;
+}
+
+h4{
+  margin-left: 25px;
+  margin-right: 25px;
+  float:inline-start;
+  position: relative;
+}
+
+.buttonsignin {
+  background-color: #01579B; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 5px 14px;
+  border-radius: 40px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  align-self: center;
+  position: relative;
+}
+
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  left: 580px;
+  top:100px;
+  z-index: 1;
+  width: 448px;
+  height: 250px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 448px;
+  height: 250px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #f13d1d;
+  align-items: center;
+  align-self: center;
+  border-radius: 100px;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 286px;
+  height: 69px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #01579B;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  color: white;
+}
+
+.login {
+  font-size: 8px;
+  background-color: #01579B;
+  color: white;
+  background-attachment: cover;
+  background-size: 5px;
+}
+
+.guidance{
+  background-color: #01579B;
+  color: white;
+}
+
+.Cancel {
+  float: inline-end;
+  margin-right: 8px;
+}
+
+
+.overlay {
+  position:absolute;
+  top: 43%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.overlay h2 {
+  color:rgb(255, 255, 255);
+  font-size: 38px;
+  text-align: left;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+p {
+  color:rgb(255, 255, 255);
+  text-align: left;
+  font-size: 19px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-bottom: 50px;
+}
+
+.overlay button {
+  margin-top:30px;
+  line-height: 42px;
+  padding: 9px 25px;
+  height: 58px;
+  width: 190px;
+  background-color: rgba(255, 255, 255, 0.623);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: left;
+  font-size: 23px;
+  display:inline-block;
+  text-align: center;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  transition-duration: 0.4s;
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+}
+
